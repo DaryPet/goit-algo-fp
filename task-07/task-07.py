@@ -18,7 +18,7 @@ def monte_calro_simulation(num_rolls):
     return probabilities, sums_frequency
 
 # number of simulations
-num_rolls = 10000
+num_rolls = 100000
 probabilities, sum_frequency =  monte_calro_simulation(num_rolls)
 
 # Convert results to a DataFrame for easy presentation
